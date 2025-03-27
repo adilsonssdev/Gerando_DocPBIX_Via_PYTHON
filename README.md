@@ -43,7 +43,6 @@ Coloque seus arquivos .pbit na pasta configurada
 Execute o script principal:
 ```
 python main.py
-O sistema irá:
 ```
 Processar cada arquivo .pbit encontrado
 
