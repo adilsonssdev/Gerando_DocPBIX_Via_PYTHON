@@ -1,5 +1,5 @@
 
-# Power BI Documentation Generator
+#  Generador de Documentos em Power BI 
 
 Automação para geração de documentação detalhada de relatórios Power BI a partir de arquivos `.pbit`.
 
