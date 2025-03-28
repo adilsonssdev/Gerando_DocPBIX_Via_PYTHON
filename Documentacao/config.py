@@ -1,10 +1,3 @@
-# nome_BI = 'o-nome-do-seu-relatorio-aqui(sem a extensao do arquivo)' #Exemplo: 'DRE'
-# nome_modelo_word = 'o-nome-do-seu-modelo-word-aqui(com a extensao do arquivo)' #Caso utilize o disponibilizado no diretório, troque para 'modelo.docx'
-
-# caminho_BI = r'o-caminho-do-seu-relatorio-aqui(sem o nome do arquivo)' #Exemplo: r'C:\Users\user\Downloads'
-# caminho_modelo_word = r'o-caminho-do-seu-modelo-word-aqui(sem o nome do arquivo)' #Exemplo: r'C:\Users\user\Downloads\Modelos'
-# caminho_documentação = r'o-caminho-para-salvar-sua-documentação-aqui' #Exemplo: r'C:\Users\user\Área de Trabalho\Documentação'
-
 #### código correto para o arquivo config.py
 
 import os
@@ -14,10 +7,10 @@ from pathlib import Path
 nome_modelo_word = 'modelo.docx'
 
 # Caminho base - usando Path para melhor compatibilidade
-one_drive_path = Path.home() / 'OneDrive - Suzano S A' / 'PrintSap'
+one_drive_path = Path.home() / 'OneDrive - ' / 'o-nome-do-seu-modelo-word-aqui(com a extensao do arquivo)' #Exemplo: r'C:\Users\user\Downloads'
 
 # Caminhos corrigidos (ajuste conforme sua estrutura real)
-caminho_BI = one_drive_path / 'Documentação' / 'Documentação cadastrada' / 'Documentacao'
+caminho_BI = one_drive_path / 'Pastas do arquivo' / 'Documentacao'
 caminho_modelo_word = caminho_BI / 'Modelos'  # Pasta Modelos está dentro de Contas a Receber
 caminho_documentacao = caminho_BI  # Mesmo diretório do BI
 
