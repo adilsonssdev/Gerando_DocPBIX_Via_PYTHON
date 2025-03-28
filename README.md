@@ -106,9 +106,5 @@ Visuais
 Fontes
 Relacionamentos 
 
-## 🙏 Agradecimentos
-[Julia Lira](https://github.com/data-ju/Power_BI_Documentation) pelo código original de extração de PBIT
-
-
 ## 📄 Licença
 Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](https://github.com/adilsonssdev/Gerando_DocPBIX_Via_PYTHON/edit/main/License) para detalhes.
