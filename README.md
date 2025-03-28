@@ -1,8 +1,16 @@
 
 #  Gerador de Documentos em Power BI 
 
-![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Power_bi_logo_black.svg/1200px-Power_bi_logo_black.svg.png)
-
+  <img 
+    align="left" 
+    alt="Power BI"
+    title="Power BI" 
+    width="100px" 
+    style="padding-right: 10px;" 
+    src="https://img.shields.io/badge/power_bi-F2C811?style=flat-square&logo=powerbi&logoColor=black" 
+  />
+<br>
+<br>
 Automação para geração de documentação detalhada de relatórios Power BI a partir de arquivos `.pbit`.
 
 > 🔍 **Baseado no trabalho original de [Julia Lira](https://github.com/data-ju/Power_BI_Documentation)**  
