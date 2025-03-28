@@ -1,7 +1,12 @@
 
 #  Gerador de Documentos em Power BI 
 
+![Power BI Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Power_bi_logo_black.svg/1200px-Power_bi_logo_black.svg.png)
+
 Automação para geração de documentação detalhada de relatórios Power BI a partir de arquivos `.pbit`.
+
+> 🔍 **Baseado no trabalho original de [Julia Lira](https://github.com/data-ju/Power_BI_Documentation)**  
+> Este projeto foi adaptado a partir da solução inicial desenvolvida por Julia Lira para extração de conteúdo de arquivos PBIT.
 
 ## 📌 Visão Geral
 
@@ -37,20 +42,24 @@ Localização do modelo Word (modelo.docx)
 
 Pasta onde estão os arquivos .pbit
 
-##  🚀 Como Usar
+## 🚀 Como Usar
 Coloque seus arquivos .pbit na pasta configurada
 
 Execute o script principal:
 ```
 python main.py
 ```
+
+O sistema irá:
+
 Processar cada arquivo .pbit encontrado
 
 Criar uma pasta para cada relatório
 
 Gerar um documento Word com a documentação completa
 
-##  🔄 Processo de Geração
+## 🔄 Processo de Geração
+
 Converte .pbit para .zip (temporariamente)
 
 Extrai os metadados do relatório
@@ -87,7 +96,7 @@ Organiza em pastas nomeadas conforme os relatórios
 
 O arquivo modelo.docx deve conter os seguintes marcadores (que serão substituídos):
 
-Copy
+
 Nome do Relatório:
 Data da documentação:
 Páginas
@@ -95,15 +104,11 @@ Tabelas
 Medidas
 Visuais
 Fontes
-Relacionamentos
+Relacionamentos 
+
+## 🙏 Agradecimentos
+[Julia Lira](https://github.com/data-ju/Power_BI_Documentation) pelo código original de extração de PBIT
+
 
 ## 📄 Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
-
-
-
-
-
-
-
-
+Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](https://github.com/adilsonssdev/Gerando_DocPBIX_Via_PYTHON/edit/main/License) para detalhes.
